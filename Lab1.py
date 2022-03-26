@@ -45,8 +45,11 @@ print(i)
 
 #Zad4. Napisz skrypt, który policzy i wyświetli następujące wyrażenia:
 #𝑒10
-
+e = math.pow(math.e, 10)
+print(e)
 #√ln (5 + 𝑠𝑖𝑛286
+y = math.pow(math.log(5+(math.sin(8)**2)), 1/6)
+print(y)
 #⌊3, 55⌋
 #⌈4, 80⌉
 
