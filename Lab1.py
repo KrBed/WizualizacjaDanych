@@ -1,5 +1,5 @@
 # Zadania.
-# Zad1. Napisz pierwszy skrypt, w którym zadeklarujesz po dwie zmienne każdego typu a następnie wyświetlte zmienne
+# Zad1. Napisz pierwszy skrypt, w którym zadeklarujesz po dwie zmienne każdego typu a następnie wyświetl te zmienne
 import math
 
 a = 10
@@ -88,3 +88,10 @@ hex = '0x1b3'
 
 print('string: {0:s},float: {1:2f},hex: {2:s} '.format(str, flo,hex))
 
+napis2 = "Jest dziś czwartek"
+print("Jaki mamy dziś dzień? %s" % napis2)
+liczba = 5.677
+print("twoja liczba to: %(z1).2f" % {'z1': liczba})
+liczba_szesnastkowo = 0xf351
+print(liczba_szesnastkowo)
+print("%x" % liczba_szesnastkowo)

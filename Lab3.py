@@ -109,7 +109,7 @@ zapis_przedzial()
 # Odczytaj plik z poprzedniego zadania i wyświetl jego zawartość w konsoli
 
 def odczyt_plik():
-    plik = open('ciagi.txt', 'r')
+    plik = open('ciagi.txt',  'r')
     result = plik.readlines()
     print(result)
 
