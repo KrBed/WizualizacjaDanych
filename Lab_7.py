@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 #bardzo prosty wykres liniowy
-# plt.plot([1, 2, 3, 4])
-# plt.ylabel('jakieś liczby')
-# plt.show()
+plt.plot([1, 2, 3, 4])
+plt.ylabel('jakieś liczby')
+plt.show()
 
 #przekazujemy dwa wektory wartości, najpierw dla wektora x,
 # następnie dla wektora y
